@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 system("mkdir RAD_samples");
-open(FILE, "<RADseqID_DNAID.list") or die;
+open(FILE, "<metadata/RADseqID_DNAID.list") or die;
 while (<FILE>) {
 	$line = $_; chomp($line);
 	@tabs = split(/\t/,$line);

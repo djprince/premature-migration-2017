@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 #script pulls R1s and merges 
 
-system("awk '{print \$1}' RADseqID_DNAID.list > seq.list");
+system("awk '{print \$1}' metadata/RADseqID_DNAID.list > seq.list");
 open(SEQ, "<seq.list") or die;
 while (<SEQ>) {
         $line = $_; chomp($line);
@@ -31,7 +31,7 @@ while (<SEQ>) {
 close SEQ;
 system("rm seq.list");
 
-open(FILE, "<RADseqID_DNAID.list") or die;
+open(FILE, "<metadata/RADseqID_DNAID.list") or die;
 while (<FILE>) {
         $line = $_; chomp($line);
         @tabs = split(/\t/,$line);
