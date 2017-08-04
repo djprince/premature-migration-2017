@@ -8,4 +8,4 @@ Pacific salmon highlights the utility of genomics for informing conservation. Sc
 e1603198 (2017).
 
 
-I have attempted to consolidate and streamline the analysis to be more easily replicated and may have introduced some inconsistencies in the process. Please let me know of any problems you run across.
+I have attempted to consolidate and streamline the analysis to be more easily replicated and have not yet re-ran the analysis with this pipeline. Please let me know of any problems you run across.
