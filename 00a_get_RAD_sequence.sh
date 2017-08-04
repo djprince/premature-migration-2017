@@ -3,7 +3,7 @@
 module load sratoolkit/2.8.2
 mkdir RAD_sequence/
 
-grep metadata/RAD SRR_seqID.list > metadata/RAD_seq.list
+grep RAD metadata/SRR_seqID.list > metadata/RAD_seq.list
 
 list="metadata/RAD_seq.list"
 

@@ -3,7 +3,7 @@
 module load sratoolkit/2.8.2
 mkdir PCR_sequence/
 
-grep metadata/PCR SRR_seqID.list > metadata/PCR_seq.list
+grep PCR metadata/SRR_seqID.list > metadata/PCR_seq.list
 
 list="PCR_seq.list"
 
